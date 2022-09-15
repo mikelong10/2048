@@ -10,7 +10,7 @@ public class Board {
     board = new Block[4][4];
     for (int r = 0; r < board.length; r++) {
       for (int c = 0; c < board[0].length; c++) {
-        board[r][c] = new Block(new Color(187, 172, 159), 1, c * this.size, r * this.size, this.size);
+        board[r][c] = new Block(1, c * this.size, r * this.size, this.size);
       }
     }
     insertBlock();

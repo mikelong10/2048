@@ -3,12 +3,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Block {
-  private Color color;
   private int value, x, y, size;
   private final Map<Integer, Color> colorCode;
 
-  public Block(Color color, int value, int x, int y, int size) {
-    this.color = color;
+  public Block(int value, int x, int y, int size) {
     this.value = value;
     this.x = x;
     this.y = y;
